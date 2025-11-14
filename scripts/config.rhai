@@ -1,10 +1,12 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_model = ["Planning", "Control", "Swarm", "Localization", "Navigation", "Multi"];
+let titles_method = ["Learning", "UAV", "Drone", "MAV", "Quadrotor", "Quadcopter", "rotor", "Aerial", "RL", "wind"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let authors_array = ["Fei Gao", "Shaojie Shen"];
 
 let conferences = [
+    // robotics
+    "ICRA", "IROS", "RSS",
     // AI
     "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
     // CV
